@@ -1,0 +1,262 @@
+body
+{
+	background-color: #263238;
+	margin: 0;
+	color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1.logo
+{
+	font-size: 44px;
+	font-weight: 700;
+	color: #CCFFCC;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+h1.logo a
+{
+	color: #CCFFCC;
+	text-decoration: none;
+}
+
+#topNavigation
+{
+	background-color: #006600;
+	text-align: center;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1400px;
+}
+
+.left
+{
+	width: 240px;
+	float: left;
+	display: inline-block;
+	min-height: 700px;
+}
+
+.center
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/gray_jean.png");
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 900px;
+	color: black;
+	min-height: 700px;
+	padding-bottom: 60px;
+}
+
+.center p
+{
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+}
+
+.center label
+{
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 0px;
+}
+
+.center img
+{
+	margin-top: 40px;
+	margin-left: 338px;
+}
+
+.right
+{
+	width: 180px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	min-height: 700px;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #003300;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #003300;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #0a2b42;
+}
+
+.leftMenu
+{
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 24px;
+}
+
+.leftMenu > li
+{
+	padding: 20px;
+	border-bottom: 1px dashed #ECEFF1;
+}
+
+.leftMenu > li:first-child
+{
+	border-top: 1px dashed #ECEFF1;
+}
+
+.leftMenu a
+{
+	color: #CCFFCC;
+	text-decoration: none;
+}
+
+.leftMenu a:hover
+{
+	color: #ECEFF1;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date]
+{
+	width: 300px;
+	border: 2px solid #006600;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=date]:focus
+{
+	background-color: #CCFFCC;
+}
+
+input[type=submit],
+input[type=reset]
+{
+	width: 300px;
+	background-color: #006600;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+	color: #CCFFCC;
+}
+
+.button
+{
+	width: 330px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inputField
+{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+.radioButton
+{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#comment
+{
+	width: 800px;
+	min-height: 120px;
+	font size: 14px;
+	border: 2px solid #006600;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+#comment:focus
+{
+	background-color: #CCFFCC;
+}
+
+.radioButtonTittle
+{
+	margin-top: 20px;
+	margin-left: 50px;
+	font-weight: 700;
+}
+
+.col
+{
+	margin: 0 10px;
+}

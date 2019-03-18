@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Finance Assistant</title>
+	<meta name="description" content="Web application that will help you plan your home budget">
+	<meta name="keywords" content="finance, assistant, help, home, budget, money, save">
+	<meta name="author" content="Tomasz Jóźwiak">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<header>
+		
+		<h1 class="logo"><a href="index.html">Finance Assistant</a></h1>
+		
+			<nav id="topNavigation">
+			
+				<ul class="menu">
+					<li><a href="income.html">Dodaj przychód</a></li>
+					<li><a href="expense.html">Dodaj wydatek</a></li>
+					<li><a href="balance.html">Przeglądaj bilans</a></li>
+					<li><a href="settings.html">Ustawiania</a></li>
+					<li><a href="logout.html">Logout</a></li>
+				</ul>
+			
+		</nav>
+	
+	</header>
+
+	<div class="container">
+	
+		<div class="left">
+		
+			<aside>
+		
+				<nav id="leftNavigation">
+				
+					<ul class="leftMenu">
+						<li><a href="income.html">Dodaj przychód</a></li>
+						<li><a href="expense.html">Dodaj wydatek</a></li>
+						<li><a href="balance.html">Przeglądaj bilans</a></li>
+						<li><a href="settings.html">Ustawiania</a></li>
+						<li><a href="logout.html">Logout</a></li>
+					</ul>
+				
+				</nav>
+				
+			</aside>
+			
+		</div>
+		
+		<div class="center">
+			<main>
+			
+				<article>
+		
+					<header>
+					
+						<h1>Dodaj przychód</h1>
+						
+					</header>
+					
+					<p>Wpisz poniższe dane, aby dodać nowy przychód</p>
+					
+					<label> Kwota <div class="inputField"><input type="text" name="income" required></div></label>
+					<label> Data <div class="inputField"><input type="date" name="date" required></div></label>
+					<div class="radioButtonTittle">Kategoria:</div>
+					<label><div class="radioButton"><input type="radio" value="1" name="income_type" > Wynagrodzenie</div></label>
+					<label><div class="radioButton"><input type="radio" value="2" name="income_type"> Odsetki bankowe </div></label>
+					<label><div class="radioButton"><input type="radio" value="3" name="income_type"> Sprzedaż na allegro </div></label>
+					<label><div class="radioButton"><input type="radio" value="4" name="income_type"> Inne </div></label>
+					 <div class="inputField"><textarea name="comment" id="comment" placeholder="Komentarz"></textarea></div>
+					
+					<div class="button"><input type="submit" value="Dodaj"></div>
+					<div class="button"><input type="reset" value="Cancel"></div>
+				
+				</article>
+				
+			</main>
+			
+		</div>
+		
+		<div class="right">
+		
+			<aside>
+			
+				<img src="img/ad.jpg" alt="advertisement">
+			
+			</aside>
+			
+		</div>
+		
+		<div style="clear:both;"></div>
+	
+	</div>
+	
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="finance_assistant.js"></script>
+
+</body>
+</html>
